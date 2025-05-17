@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <title>peepeew's 安全博客</title>
+  <meta charset="UTF-8">
+  <title>peepeew 的安全开发博客</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 40px;
+      background: #ffffff;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    .blog-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .blog-list li {
+      margin: 15px 0;
+    }
+
+    .blog-list a {
+      text-decoration: none;
+      color: #0056b3;
+      font-size: 1.1em;
+    }
+
+    .blog-list a:hover {
+      text-decoration: underline;
+    }
+
+    .emoji {
+      margin-right: 8px;
+    }
+  </style>
 </head>
 <body>
-  <h1>🛡️ peepeew's 安全博客</h1>
-  <p>欢迎来到我的技术博客！</p>
-  <ul>
-    <li><a href="secure-user-system.html">🚀 项目：Secure User System</a></li>
-    <li><a href="blog1.html">📄 博客1：</a></li>
-    <li><a href="blog2.html">📄 博客2：</a></li>
-  </ul>
+  <div class="container">
+    <h1>🔐 peepeew 的安全开发博客</h1>
+    <p>欢迎来到我的技术主页！这里记录了我在数据安全与安全开发方向的学习与项目实践。</p>
+
+    <ul class="blog-list">
+      <li>🚀 项目：<a href="https://github.com/peepeew/secure-user-system" target="_blank">Secure User System</a></li>
+      <li>📝 博客 1：<a href="posts/first-post.html">我的第一个安全项目总结</a></li>
+      <li>🧠 博客 2：<a href="posts/jwt-vs-session.html">JWT 与 Session 安全对比</a></li>
+    </ul>
+  </div>
 </body>
 </html>
+
