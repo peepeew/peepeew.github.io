@@ -1,10 +1,9 @@
 ---
 layout: default
-title: STAT5003 Summary
+title: 计算统计方法
 ---
 
-# STAT5003: Computational Statistical Methods
+#  Computational Statistical Methods
 
-Welcome! This page will contain all notes and posts related to STAT5003.
 
-👉 [Theme 1: Data Visualization in R](Theme1.html)
+👉 [主题1：R 中的数据可视化](Theme1.html)
