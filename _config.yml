@@ -1,6 +1,8 @@
 title: peepeew 的安全开发博客
-description: 数据安全 | 安全开发 | 项目记录
-author: peepeew
+description: 技术内容记录与展示
 theme: minima
-plugins:
-  - jekyll-feed
+
+# 导航栏配置
+header_pages:
+  - index.md
+  - 计算统计方法/index.md
